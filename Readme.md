@@ -1,4 +1,4 @@
-﻿# TranslucentTB
+# TranslucentTB
 
 [![Build status](https://ci.appveyor.com/api/projects/status/9yym3vr6s5gc7vk3/branch/master?svg=true)](https://ci.appveyor.com/project/sylveon/translucenttb/branch/master)
 [![Join on Discord](https://img.shields.io/discord/304387206552879116.svg)][Discord]
@@ -6,22 +6,22 @@
 [![Total downloads](https://img.shields.io/github/downloads/TranslucentTB/TranslucentTB/total.svg)](https://github.com/TranslucentTB/TranslucentTB/releases)
 [![Liberapay patrons](https://img.shields.io/liberapay/patrons/TranslucentTB.svg)](https://liberapay.com/TranslucentTB/)
 
-A lightweight (uses a few MB of RAM and almost no CPU) utility that makes the Windows taskbar translucent/transparent on Windows 10.
+一个轻量级（仅需要几 MB 的内存，几乎不占用 CPU）的实用程序，使 Windows 10 任务栏变成透明或者半透明。
 
-You can see examples of the customizations you can make in the images below:
+您可以在下面的几张图片中预览软件的效果:
 
 ![blur](https://i.imgur.com/r4ZJjnL.png) ![transparent](https://i.imgur.com/eLGTtwp.png) ![acrylic](https://i.imgur.com/M15IPJW.png)
 
-## Features
+## 功能介绍
 
-- Advanced **color picker** supporting alpha and live preview to change the taskbar's color.
-- **Taskbar states** (choose one - color can be customized on every state except Normal):
-  - **Blur**: Will make the taskbar slightly blurred.
-  - **Clear**: Transparent taskbar.
-  - **Normal**: Regular Windows style. (as if TranslucentTB was not running)
-  - **Opaque**: No transparency.
-  - **Fluent**: Windows 10 April 2018 update and up only. Will give the taskbar an appearance similar to Microsoft's Fluent Design guidelines.
-- **Dynamic** modes (these can be used together and each of them provides a taskbar state and color you can customize):
+- 高级的 **颜色选择工具** 支持透明颜色，并且可以实时预览任务栏的效果
+- **任务栏效果** (选择一种类型，除正常状态外，其他状态均可定制。):
+  - **模糊**: 可以将任务栏变成模糊效果
+  - **透明**: 将任务栏变成完全透明的
+  - **正常**: 正常的任务栏效果 (就像 TranslucentTB 没有运行一样)
+  - **纯色**: 完全不透明的任务栏
+  - **毛玻璃**: 仅限于 Windows 10 1804 版本以上支持，效果类似于 Windows 登录界面背景。
+- **动态改变** 模式 (这些效果可以组合使用，每个效果都提供自定义选项):
   - **Dynamic Windows**: Will change the taskbar to a different appearance if a window is currently maximised.
   - **Dynamic Start Menu**: Will change the taskbar appearance when the start menu is opened.
   - **Dynamic Cortana**: Will change the taskbar appearance when Cortana (or the search menu if Cortana is disabled) is open.
