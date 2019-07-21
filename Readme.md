@@ -1,10 +1,12 @@
-# TranslucentTB
+# TranslucentTB-CN
 
 [![Build status](https://ci.appveyor.com/api/projects/status/9yym3vr6s5gc7vk3/branch/master?svg=true)](https://ci.appveyor.com/project/sylveon/translucenttb/branch/master)
 [![Join on Discord](https://img.shields.io/discord/304387206552879116.svg)][Discord]
 [![Join on Gitter](https://badges.gitter.im/TranslucentTB/Lobby.svg)][Gitter]
 [![Total downloads](https://img.shields.io/github/downloads/TranslucentTB/TranslucentTB/total.svg)](https://github.com/TranslucentTB/TranslucentTB/releases)
 [![Liberapay patrons](https://img.shields.io/liberapay/patrons/TranslucentTB.svg)](https://liberapay.com/TranslucentTB/)
+
+本项目为 [TranslucentTB](https://github.com/TranslucentTB/TranslucentTB) 的中文翻译项目。
 
 一个轻量级（仅需要几 MB 的内存，几乎不占用 CPU）的实用程序，使 Windows 10 任务栏变成透明或者半透明。
 
