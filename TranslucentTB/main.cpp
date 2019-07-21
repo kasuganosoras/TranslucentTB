@@ -222,10 +222,10 @@ bool CheckAndRunWelcome()
 		// String concatenation is hard OK
 		std::wostringstream message;
 		message <<
-			L"Welcome to " NAME L"!\n\n"
-			L"You can tweak the taskbar's appearance with the tray icon. If it's your cup of tea, you can also edit the configuration files, located at \"" <<
+			L"欢迎来到 " NAME L"!\n\n"
+			L"您可以通过点击任务栏上的托盘图标来修改您的设置，您也可以手动编辑配置文件，文件位于 \"" <<
 			run.config_folder <<
-			L"\"\n\nDo you agree to the GPLv3 license?";
+			L"\"\n\n您是否接受 GPLv3 开源协议？";
 
 		if (MessageBox(Window::NullWindow, message.str().c_str(), NAME, MB_ICONINFORMATION | MB_YESNO | MB_SETFOREGROUND) != IDYES)
 		{
