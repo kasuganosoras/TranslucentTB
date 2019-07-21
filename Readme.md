@@ -16,50 +16,50 @@
 
 - 高级的 **颜色选择工具** 支持透明颜色，并且可以实时预览任务栏的效果
 - **任务栏效果** (选择一种类型，除正常状态外，其他状态均可定制。):
-  - **模糊**: 可以将任务栏变成模糊效果
-  - **透明**: 将任务栏变成完全透明的
-  - **正常**: 正常的任务栏效果 (就像 TranslucentTB 没有运行一样)
-  - **纯色**: 完全不透明的任务栏
+  - **模糊**: 可以将任务栏变成模糊效果。
+  - **透明**: 将任务栏变成完全透明的。
+  - **正常**: 正常的任务栏效果 (就像没有运行 TranslucentTB 一样)
+  - **纯色**: 完全不透明的任务栏。
   - **毛玻璃**: 仅限于 Windows 10 1804 版本以上支持，效果类似于 Windows 登录界面背景。
-- **动态改变** 模式 (这些效果可以组合使用，每个效果都提供自定义选项):
-  - **Dynamic Windows**: Will change the taskbar to a different appearance if a window is currently maximised.
-  - **Dynamic Start Menu**: Will change the taskbar appearance when the start menu is opened.
-  - **Dynamic Cortana**: Will change the taskbar appearance when Cortana (or the search menu if Cortana is disabled) is open.
-  - **Dynamic Timeline/Task View**: Will change the taskbar apperance when the Timeline (or Task View on older builds) is open.
-- Ability to **show or hide the Aero Peek** button. Can be customized **at will** or **dynamic**.
+- **动态改变模式** (这些效果可以组合使用，每个效果都提供自定义选项):
+  - **最大化窗口**: 如果当前窗口最大化，则将任务栏更改为其他外观。
+  - **开始菜单**: 在开始菜单打开时更改任务栏外观。
+  - **微软小娜**: 在打开微软小娜（如果禁用了小娜，则在打开搜索框）时改变任务栏外观。
+  - **时间线或任务视图**: 当时间线（或旧版本上的任务视图）打开时更改任务栏外观。
+- 可以 **显示或隐藏 Aero 特效** 按钮。可以定制为 **任意窗口** 或者 **动态改变**。
 
-You can see it in action [here](https://gfycat.com/TidyFelineCrownofthornsstarfish) (short) and [here](https://gfycat.com/ConsciousCriminalDassie) (longer).
+您可以在这里看到它的效果：[简单动态图介绍](https://gfycat.com/TidyFelineCrownofthornsstarfish) 以及 [详细动态图介绍](https://gfycat.com/ConsciousCriminalDassie)。
 
-## Download
+## 下载
 
-You can download the program freely from the [Microsoft Store](https://www.microsoft.com/store/apps/9PF4KZ2VN4W9) and take advantage of its features like background auto-updates and settings sync.
+您可以直接在 [Microsoft Store](https://www.microsoft.com/store/apps/9PF4KZ2VN4W9) 里下载本软件，并且可以支持自动同步设置等功能。
 
-If you prefer a classical download, you can do so [via the releases tab](https://github.com/TranslucentTB/TranslucentTB/releases).
+如果您想直接下载，您可以在 [Release 页面](https://github.com/TranslucentTB/TranslucentTB/releases) 下载本软件。
 
-If you want to get the latest bleeding edge build, you can grab it over at the [AppVeyor page](https://ci.appveyor.com/project/sylveon/translucenttb) (`Configuration: Release` > `Artifacts` > `TranslucentTB-setup.exe`). Note that these build may not work, or include features that are partially complete. Use at your own risk.
+如果您想体验包含最新特性的构建版本，您可以在 [AppVeyor page](https://ci.appveyor.com/project/sylveon/translucenttb) (`Configuration: Release` > `Artifacts` > `TranslucentTB-setup.exe`) 下载构建的文件。请注意，这些构建的版本可能不能正常使用，或者存在未完成的功能，请您自行承担使用的风险。
 
-## Add to Startup
+## 设置开机启动
 
-To add TranslucentTB to startup, check the "Open at boot" entry in the TranslucentTB tray icon's context menu. If it is grayed out, TranslucentTB startup has been disabled from within the Task Manager or by your organization.
+如果您希望设置 TranslucentTB 为开机启动，请在任务栏的 TranslucentTB 图标上右键，选中 "开机时启动" 选项。如果它是灰色的并且不可点击，说明 TranslucentTB 已被任务管理器或组织禁止开机启动。
 
-## Donations
+## 赞助我们
 
-[We have a Liberapay!](https://liberapay.com/TranslucentTB/) Don't hesitate to donate if you appreciate TranslucentTB and would like to support our work.
+[我们有一个 Liberapay！](https://liberapay.com/TranslucentTB/) 如果您喜欢 TranslucentTB 并愿意支持我们的工作，请捐赠我们。
 
-## Security
+## 安全
 
-Some antiviruses are over eager, so they might flag this program as malicious. IT IS NOT! Over 200k users have downloaded this program safely. The source is open, you can compile it yourself, and I welcome any and all security reviews.
+有些杀毒软件可能会将此程序标记为病毒。并不是这样，超过20万用户安全下载了这个程序。我们的源代码是开放的，您可以自己编译它，我欢迎任何的代码安全审查。
 
-Speaking of compiling...
+说到编译代码……
 
-## Building from source
+## 从源代码构建
 
-You can checkout one of the available branches. However, it is recommended to use `master`, as the code here is stable and has been passed through peer review.
+您可以选择一个可用的分支。但是，建议使用 “master” 分支，因为这里的代码是最稳定的，并且已经通过了同行评审。
 
-Via [git](https://git-scm.com):
+通过 [git](https://git-scm.com):
 
 ```sh
-$ git clone -b [branch-you-want] https://github.com/TranslucentTB/TranslucentTB
+$ git clone -b [您想选择的分支] https://github.com/TranslucentTB/TranslucentTB
 Cloning into 'TranslucentTB'...
 remote: Counting objects: 909, done.
 remote: Compressing objects: 100% (40/40), done.
@@ -68,41 +68,41 @@ Receiving objects: 100% (909/909), 383.94 KiB | 2.78 MiB/s, done.
 Resolving deltas: 100% (624/624), done.
 ```
 
-You can also download a zip archive of each branch by clicking on the `Clone or download` button while browsing the branch's files.
+您还可以通过点击分支文件列表的 `Clone or download` 按钮来下载代码的 Zip 压缩文件。
 
-Now that you have the source, you will need Visual Studio 2017. [You can get the free community edition here](https://www.visualstudio.com/vs/community/).
-Check the following workloads:
+现在您已经拥有了源代码，接下来您需要 Visual Studio 2017. [您可以在这里获得社区免费版本](https://www.visualstudio.com/vs/community/).
+并安装以下功能:
 
-- Desktop development with C++
-- .NET desktop development
+- C++ 桌面开发
+- .NET 桌面开发
 
-You also need to install the following individual components:
+您还需要安装以下各个组件：
 
-- Any of the VC++ 2017 toolsets (latest prefered)
-- Windows 10 SDK (10.0.17134.0)
+- VC++ 2017 工具集（最新版本首选）
+- Windows 10 SDK（10.0.17134.0）
 - .NET Framework 4.6.2 SDK
-- .NET Framework 4.6.2 targeting pack
+- .NET Framework 4.6.2 目标包
 
-You also need the [Clang compiler for Windows](http://releases.llvm.org/download.html) and [Inno Setup](http://jrsoftware.org/isdl.php).
+您还需要 [Windows C 语言编译器](http://releases.llvm.org/download.html) 以及 [Inno Setup](http://jrsoftware.org/isdl.php).
 
 <!-- markdownlint-disable MD033 -->
-Once you have that installed, open `TranslucentTB.sln`, and press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> to build the solution.
+当您安装完成时，请打开 `TranslucentTB.sln`，然后按下 <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> 来构建解决方案。
 <!-- markdownlint-enable MD033 -->
 
-The output will be in either the Debug or Release folder (depending on which solution configuration is currently active).
+输出将位于 debug 或 release 文件夹中（取决于当前激活的解决方案配置）。
 
-To build the desktop installer, run the DesktopInstallerBuilder project.
+要生成桌面安装程序，请运行 desktopinstallerBuilder 项目。
 
-To build the Microsoft Store app package, build the solution with the Store configuration.
+要构建 Microsoft 应用商店应用程序包，请使用应用商店配置构建解决方案。
 
-## Contributing
+## 贡献
 
-If you would like to contribute, everyone is welcome to! If you are considering a major feature, need guidance, or want to talk an idea out, don't hesitate to jump on [Discord], [Gitter], or file an issue here. The main contributors are often on [Discord], [Gitter] and GitHub, so we should reply fairly quickly.
-At this time we have no plans of expanding this beyond the taskbar.
+如果您想贡献代码，所有人都欢迎！ 如果您正在考虑一个主要功能，需要指导，或想要提出一个想法，请不要犹豫，立即在 [Discord] 或 [Gitter] 提出，您也可以在此处提出一个 Issues。 主要贡献者通常在 [Discord] 和 [Gitter] 以及 GitHub，所以我们应该很快回复。
+目前我们还没有计划将其扩展到任务栏之外。
 
-When contributing, please respect the style used by the codebase. Quick rundown:
+在贡献时，请尊重代码库代码风格。简单示例：
 
-- Allman braces everywhere, even on one line blocks:
+- 括号应该写在单独的一行：
 
   ```cpp
   // Bad!
@@ -152,42 +152,42 @@ When contributing, please respect the style used by the codebase. Quick rundown:
   std::wstring *baz;
   ```
 
-- Indentation style is 4 spaces large tabs, and your editor should enforce it with this repo's `.editorconfig` automatically.
+- 缩进样式是 4 个空格的大制表符，您的编辑器应该使用这个 repo 的 `.editorconfig` 自动执行它。
 
-When trying to debug the main program, it might seem confusing at first because the two projects listed for launch in the header are StorePackage and DesktopInstallerBuilder. Just right-click the TranslucentTB project and select "Set as startup project".
+在尝试调试主程序时，一开始可能会让人感到困惑，因为 header 中列出要启动的两个项目是 storepackage 和 desktopinstallerbuilder。只需右键单击TranslucentTB 项目并选择 “设置为启动项目”。
 
-## Thanks
+## 致谢
 
-TranslucentTB is a team effort! It is the result of the collective efforts of many people:
+TranslucentTB 是由一个团队完成的，这个团队由许多人组成:
 
 - [@ethanhs](https://github.com/ethanhs),
 - [@sylveon](https://github.com/sylveon),
 - [@MrAksel](https://github.com/MrAksel),
 - [@denosawr](https://github.com/denosawr),
 - [@PFCKrutonium](https://github.com/PFCKrutonium),
-- and last but not least, all of [our contributors](https://github.com/TranslucentTB/TranslucentTB/graphs/contributors)!
+- 其余非核心的 [代码贡献者](https://github.com/TranslucentTB/TranslucentTB/graphs/contributors)!
 
-Thanks to [@dAKirby309](https://github.com/dAKirby309) for making the icon! You can find more of his stuff on [his DeviantArt profile](https://dakirby309.deviantart.com/).
+感谢 [@dAKirby309](https://github.com/dAKirby309) 制作了图标，您可以在 [DeviantArt 的个人资料](https://dakirby309.deviantart.com/) 上了解更多关于他的信息。
 
-The color picker used comes from [this great CodeProject article](https://www.codeproject.com/Articles/9207/An-HSV-RGBA-colour-picker).
-We've modernized it a bit, with per-monitor high DPI awareness, faster (and hardware-accelerated) drawing as well as allowing to input any valid HTML color code or [name](https://www.w3schools.com/colors/colors_names.asp).
+使用的颜色选择器来自 [这篇伟大的文章](https://www.codeproject.com/Articles/9207/An-HSV-RGBA-colour-picker).
+我们对它进行了一些现代化的改造，使其适应高 DPI 的显示器，速度更快 (以及硬件加速) 的绘图，并允许输入任何有效的 HTML 颜色代码或[名称](https://www.w3schools.com/colors/colors_names.asp).
 
-The picture we used for the installer screenshot is by [Michael D Beckwith](https://unsplash.com/photos/M-nHIqkO4-o) from [Unsplash](https://unsplash.com/).
+我们用于安装程序截图的图片来自 [Michael D Beckwith](https://unsplash.com/photos/M-nHIqkO4-o) 的 [Unsplash](https://unsplash.com/).
 
-We use [Inno Setup Dependency Installer](https://github.com/stfx/innodependencyinstaller) to install the Visual C++ redistribuable.
+我们使用 [Inno Setup Dependency Installer](https://github.com/stfx/innodependencyinstaller) 来安装 Visual C++ 的可再发行组件。
 
-### Similar programs
+### 类似的程序
 
-If you are looking for something that modifies more than just the taskbar, there are several programs out there.
+如果您正在寻找的东西不仅仅是修改任务栏，那么有几个程序。
 
-[Taskbar Tools](https://github.com/Elestriel/TaskbarTools) is a similar program written in C#. However, it seems to be unmaintaned.
+[Taskbar Tools](https://github.com/Elestriel/TaskbarTools) 是一个用 C# 编写的类似程序。 但是它似乎没有在维护。
 
-You may have seen similar translucency abilities from programs such as StartIsBack, Start10 and the now defunct Classic Shell. All of these are great programs, but I don't need the start-replacement features, so I wrote this.
-TranslucentTB also allows for more customizability over the taskbar with features such as Dynamic Windows, Dynamic Peek and Dynamic Start that these programs don't have. The storage and memory impact is also lesser.
+您可能已经从类似于 StartIsBack，Start10 和现已解散的 Classic Shell 等程序中看到了类似的半透明功能。所有这些都是很棒的程序，但我不需要替换功能，所以我写了这个。
+TranslucentTB 还允许在任务栏上进行更多可自定义，具有这些程序所没有的动态 Windows，动态效果和动态启动等功能。存储和内存占用也较小。
 
-### License
+### 开源协议
 
-This program is free (as in speech) software under the GPLv3. Please see the [LICENSE.md](LICENSE.md) file for more.
+本软件是免费的，并且使用 GPLv3 协议开源，有关更多信息，请阅读 [LICENSE.md](LICENSE.md) 文件。
 
 [Discord]: https://discord.gg/w95DGTK
 [Gitter]: https://gitter.im/TranslucentTB/Lobby
